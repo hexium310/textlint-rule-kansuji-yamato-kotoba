@@ -1,5 +1,6 @@
 # textlint-rule-kansuji-yamato-kotoba
 
+[WIP]
 A textlint rule for Japanese numerals with 大和言葉.
 This rule force you to use 漢数字 instead of Arabic numerals in case of using つ as 助数詞.
 
