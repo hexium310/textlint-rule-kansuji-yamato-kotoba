@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "textlintrule"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "textlint-scripts test",
+    "lint": "eslint 'src/**/*.ts' --ignore-path .gitignore",
+    "build": "textlint-scripts build",
+    "prepublish": "npm run --if-present build",
+    "watch": "textlint-scripts build --watch"
+  },
+  "devDependencies": {
+    "@textlint/types": "^12.0.0",
+    "@types/node": "^15.6.0",
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "eslint": "^7.28.0",
+    "textlint-scripts": "^12.0.1",
+    "textlint-tester": "^12.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.2.4"
+  },
+  "name": "textlint-rule-kansuji-yamato-kotoba",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {}
+}
