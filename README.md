@@ -1,12 +1,15 @@
 # textlint-rule-kansuji-yamato-kotoba
 
-
+A textlint rule for Japanese numerals with 大和言葉.
+This rule force you to use 漢数字 instead of Arabic numerals in case of using つ as 助数詞.
 
 ## Install
 
-Install with [npm](https://www.npmjs.com/):
+Install from GitHub with [npm](https://www.npmjs.com/):
 
-    npm install textlint-rule-kansuji-yamato-kotoba
+```
+npm install hexium310/textlint-rule-kansuji-yamato-kotoba#master
+```
 
 ## Usage
 
