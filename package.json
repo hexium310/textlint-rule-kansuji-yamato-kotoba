@@ -12,7 +12,7 @@
     "test": "textlint-scripts test",
     "lint": "eslint 'src/**/*.ts' --ignore-path .gitignore",
     "build": "textlint-scripts build",
-    "prepublish": "npm run --if-present build",
+    "prepare": "npm run --if-present build",
     "watch": "textlint-scripts build --watch"
   },
   "devDependencies": {
